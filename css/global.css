@@ -421,8 +421,8 @@ ol li {
 }
 
 .content-list ul li,
-.microsite-nav li, 
-.microsite-nav-black li, 
+.microsite-nav li,
+.microsite-nav-black li,
 .site-nav li,
 .site-pre-header li {
     list-style-type: none
@@ -533,7 +533,6 @@ p+* {
 }
 
 .site-logo {
-    margin-bottom: 10px;
     float: left;
     width: 100%;
 }
@@ -542,7 +541,7 @@ p+* {
     width: 146px
 }
 
-@media (min-width:450px) {
+@media (min-width:750px) {
     .site-header>.row {
         padding-left: 2em;
         padding-right: 2em
@@ -558,7 +557,7 @@ p+* {
 .microsite-nav,
 .microsite-nav li,
 .microsite-nav ul,
-.microsite-nav-black, 
+.microsite-nav-black,
 .microsite-nav-black li,
 .microsite-nav-black ul,
 .mobile-logo,
@@ -630,7 +629,8 @@ p+* {
     vertical-align: top;
     background: url("../images/icon-menu.png") center no-repeat;
     background: url("../images/icon-menu.svg") center no-repeat, linear-gradient(transparent, transparent);
-    background-size: contain
+    background-size: contain;
+    margin-top: 5px;
 }
 
 .mobile-menu-open.open {
@@ -641,9 +641,6 @@ p+* {
     .mobile-menu-logos .partner-logo+.partner-logo img {
         margin-right: 0;
         margin-left: 1.728em
-    }
-    .mobile-menu-open {
-        margin-top: 5px
     }
 }
 
